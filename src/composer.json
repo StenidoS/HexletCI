@@ -1,0 +1,16 @@
+{
+    "name": "root/src",
+    "autoload": {
+        "psr-4": {
+            "Root\\Src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "StenidoS"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
