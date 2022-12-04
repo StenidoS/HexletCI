@@ -33,10 +33,12 @@ jobs:
     - name: Install dependencies
       working-directory: './src'
       run: composer install --prefer-dist --no-progress
+      
+    - name: Run test suite
+      working-directory: './src'
+      run: composer run-script test
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
     # Docs: https://getcomposer.org/doc/articles/scripts.md
 
-     - name: Run test suite
-       working-directory: './src'
-       run: composer run-script test
+     
