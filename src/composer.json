@@ -15,5 +15,7 @@
   },
   "scripts": {
     "test": "./vendor/bin/phpunit tests"
-  }
+  },
+  "license": "MIT",
+  "description": "test"
 }
