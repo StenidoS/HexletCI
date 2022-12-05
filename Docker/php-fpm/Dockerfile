@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -y \
 		libpng-dev \
 	&& docker-php-ext-configure gd --with-freetype --with-jpeg \
 	&& docker-php-ext-install -j$(nproc) gd
-
+RUN pecl install xdebug && docker-php-ext-enable xdebug
 RUN curl -sS https://getcomposer.org/installer/ | php -- install-dir=/usr/local/bin --filename=composer
 COPY --from=composer:latest /usr/bin/composer /usr/local/bin/composer
 
