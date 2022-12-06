@@ -1,0 +1,59 @@
+#main-title {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.content {
+  background-color: black;
+}
+p {
+  font-size: 24px;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-dark {
+  color: #333333;
+}
+p {
+  color: white;
+}
+p {
+  color: red;
+  font-size: 20px;
+}
+div {
+  width: 500px;
+  height: 500px;
+
+  background: #333333;
+}
+
+#main {
+  color: white;
+  width: 750px;
+}
+
+.text-white {
+  color: white;
+}
+
+.alert {
+  height: 350px;
+  color: gray;
+}
+
+div {
+  background: blue;
+}
+
+.alert-warning {
+  background: #000000;
+  color: yellow;
+}
+.news > article > h2 {
+  font-size: 24px;
+}

@@ -52,3 +52,5 @@
 192.168.32.1 - - [05/Dec/2022:04:07:01 +0000] "GET /favicon.ico HTTP/1.1" 200 45 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
 192.168.32.1 - - [05/Dec/2022:04:07:02 +0000] "GET / HTTP/1.1" 200 45 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
 192.168.32.1 - - [05/Dec/2022:04:07:02 +0000] "GET /favicon.ico HTTP/1.1" 200 45 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+192.168.32.1 - - [06/Dec/2022:08:29:08 +0000] "GET / HTTP/1.1" 200 45 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+192.168.32.1 - - [06/Dec/2022:08:29:09 +0000] "GET /favicon.ico HTTP/1.1" 200 45 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
