@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="../src/css/main.css" />
     <title>Моя первая страница</title>
   </head>
-<header>
+  <header>
     <img src="/logo.png" alt="Логотип" />
     <!-- Логотип сайта -->
     <nav id="menu">
@@ -17,7 +17,7 @@
       </ul>
     </nav>
   </header>
-  
+
   <aside>
     <div>
       <a href="#">Необязательный пункт 1</a>
@@ -26,78 +26,91 @@
     </div>
   </aside>
   <body>
+    <?php 
+echo "Hello World!!!";
+
+function test($name)
+{
+    strtoupper($name);
+    return strtoupper($name);
+}
+test('test');
+?>
     <main class="content">
-        <h1 id="main-title">Заголовок с идентификатором</h1>
-        <p>Просто параграф без класса или идентификатора</p>
-        <p class="text-bold text-dark">
-            Какой-то очень интересный текст об интересной вещи. Очень интересно.
-          </p>
-    <section>
-      <h2>Преимущества</h2>
-  
-      <ul>
-        <li>Много теории</li>
-        <li>Много практики</li>
-        <li>Много менторов</li>
-      </ul>
-    </section>
-    <section class="news">
+      <h1 id="main-title">Заголовок с идентификатором</h1>
+      <p>Просто параграф без класса или идентификатора</p>
+      <p class="text-bold text-dark">
+        Какой-то очень интересный текст об интересной вещи. Очень интересно.
+      </p>
+      <section>
+        <h2>Преимущества</h2>
+
+        <ul>
+          <li>Много теории</li>
+          <li>Много практики</li>
+          <li>Много менторов</li>
+        </ul>
+      </section>
+      <section class="news">
         <h2>Новости</h2>
-      
+
         <article>
           <h2>Новость 1</h2>
           <p>Текст новости</p>
         </article>
-      
+
         <article>
           <h2>Новость 2</h2>
           <p>Текст новости</p>
         </article>
       </section>
-      
+
       <section class="stories">
         <h2>Интересные истории</h2>
-      
+
         <article>
           <h2>История 1</h2>
           <p>Текст истории</p>
         </article>
-      
+
         <article>
           <h2>История 2</h2>
           <p>Текст истории</p>
         </article>
       </section>
-    <div id="main" class="text-white alert alert-warning">Какой-то текст</div>
-    <section class="cards">
+      <div id="main" class="text-white alert alert-warning">Какой-то текст</div>
+      <section class="cards">
         <article class="card">
-            <div class="card-title">Название товара</div>
-            <img src="/images/card-item-1.png" alt="Товар-1">
-            <div class="card-price"><span class="price-sum">24 000</span><span class="price-cur">руб.</span></div>
-            <button>Заказать</button>
+          <div class="card-title">Название товара</div>
+          <img src="/images/card-item-1.png" alt="Товар-1" />
+          <div class="card-price">
+            <span class="price-sum">24 000</span
+            ><span class="price-cur">руб.</span>
+          </div>
+          <button>Заказать</button>
         </article>
-    </section>
-    <section>
-      <h2>Новости</h2>
-  
-      <article>
-        <h3>Новость 1</h3>
-        <p>Текст новости 1</p>
-        <a href="#">Подробнее</a>
-      </article>
-  
-      <article>
-        <h3>Новость 2</h3>
-        <p>Текст новости 2</p>
-        <a href="#">Подробнее</a>
-      </article>
-  
-      <article>
-        <h3>Новость 3</h3>
-        <p>Текст новости 3</p>
-        <a href="#">Подробнее</a>
-      </article>
-    </section>
-  </main>
+      </section>
+      <section>
+        <h2>Новости</h2>
+
+        <article>
+          <h3>Новость 1</h3>
+          <p>Текст новости 1</p>
+          <a href="#">Подробнее</a>
+        </article>
+
+        <article>
+          <h3>Новость 2</h3>
+          <p>Текст новости 2</p>
+          <a href="#">Подробнее</a>
+        </article>
+
+        <article>
+          <h3>Новость 3</h3>
+          <p>Текст новости 3</p>
+          <a href="#">Подробнее</a>
+        </article>
+      </section>
+    </main>
   </body>
-  </html>
+</html>
