@@ -13,5 +13,6 @@
       "database": "data",
       "name": "localhost"
     }
-  ]
+  ],
+  "editor.formatOnSave": true
 }
