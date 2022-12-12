@@ -30,6 +30,7 @@ services:
     build: 
       context: ./Docker/php-fpm
     volumes:
+      - ./xdebug:/tmp/xdebug
       - ./src:/var/www
       - ./Docker/app/php.ini:/usr/local/etc/php/custom.d
  
